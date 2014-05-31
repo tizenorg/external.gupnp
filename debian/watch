@@ -1,0 +1,4 @@
+version=3
+http://gupnp.org/download \
+  http://gupnp.org/sites/all/files/sources/gupnp-(\d+\.\d*[02468]\.\d+).tar.gz
+
