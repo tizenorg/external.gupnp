@@ -1,5 +1,5 @@
 Name: gupnp
-Version: 0.14.1_5
+Version: 0.14.1_6
 Release: 1
 Summary: GUPNP
 Group: <group>/<group>
@@ -18,7 +18,7 @@ BuildRequires:	pkgconfig(dbus-glib-1) >= 0.76
 BuildRequires:	pkgconfig(uuid)
 BuildRequires:	pkgconfig(gthread-2.0)
 BuildRequires:  autoconf >= 2.67
-Requires: ldconfig
+Requires: /sbin/ldconfig
 %description
 GUPnP is an object-oriented open source framework for creating UPnP devices and
 control points, written in C using GObject and libsoup. The GUPnP API is
