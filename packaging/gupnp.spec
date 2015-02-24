@@ -1,5 +1,5 @@
 Name: gupnp
-Version: 0.14.1_6
+Version: 0.14.1_7
 Release: 1
 Summary: GUPNP
 Group: <group>/<group>
@@ -60,7 +60,7 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root,-)
 %doc
-/usr/lib/*.so.*
+%{_libdir}/*.so.*
 /usr/share/license/%{name}
 
 %files devel
@@ -68,6 +68,6 @@ rm -rf %{buildroot}
 /usr/bin/gupnp-binding-tool
 /usr/include/gupnp-1.0/*
 #/usr/lib/*.a
-/usr/lib/*.so
-/usr/lib/pkgconfig/*
+%{_libdir}/*.so
+%{_libdir}/pkgconfig/*
 
